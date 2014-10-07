@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
   s.source_files = 'vuforiasdk-3.0.9/include/QCAR/*.h'
-  s.vendored_libraries = 'vuforiasdk-3.0.9/lib/arm/libQCAR.a'
-  s.preserve_paths = 'vuforiasdk-3.0.9/lib/arm/libQCAR.a'
+  s.vendored_libraries = 'vuforiasdk-3.0.9/lib/arm/libVuforia.a'
+  s.preserve_paths = 'vuforiasdk-3.0.9/lib/arm/libVuforia.a'
   s.header_dir = 'QCAR'
 
   s.frameworks = 'AVFoundation', 'CoreVideo', 'CoreMedia', 'QuartzCore', 'OpenGLES', 'CoreMotion', 'MediaPlayer', 'AudioToolbox', 'SystemConfiguration', 'CoreText'
@@ -18,4 +18,3 @@ Pod::Spec.new do |s|
                    'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/VuforiaSDK/vuforiasdk-3.0.9/lib/arm"'
                     }
 end
-
