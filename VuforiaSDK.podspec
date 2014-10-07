@@ -7,4 +7,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
   s.source_files = 'include/QCAR/*.h'
+
+  s.vendored_libraries = 'libVuforia.a'
+  s.preserve_paths = 'libVuforia.a'
 end
