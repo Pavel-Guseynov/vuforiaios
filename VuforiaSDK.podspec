@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
 
   s.vendored_libraries = 'libVuforia.a'
   s.preserve_paths = 'libVuforia.a'
+
+  s.header_dir = 'QCAR'
 end
